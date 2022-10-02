@@ -41,6 +41,9 @@ body {
     background-image: url(../img/img_8.jpg);
     text-align: center;
 }
+.segunda img {
+    width: 20%;
+}
 .horario {
     width: 100%;
     background-color: rgb(50, 50, 50);
@@ -55,6 +58,18 @@ body {
     background-color: white;
     margin: 1% 15% 0;
     color: black;
+}
+.cuarta {
+    color: #000000;
+    text-align: center;
+}
+.five-columns {
+    width: 20%;
+    float: left;
+    padding: 0 0.5%;
+}
+.five-columns img {
+    width: 99%;
 }
 /* ---- Barra NAV ----*/
 ul.sidenav {
@@ -194,5 +209,75 @@ to {
 .text {
     font-size: 11px
 }
+}
+@media only screen and (max-width: 600px) {
+    .primera {
+        width: 100%;
+        padding: 0;
+    }
+    .two-column {
+        width: 100%;
+        padding: 1%;
+    }
+    .two-column p {
+        font-size: 3vw;
+    }
+    .primera img {
+        border-radius: 2%;
+        width: 96%;
+        padding: 4%;
+    }
+    .three-column {
+        float: left;
+        width: 33%;
+    }
+    .three-column2 {
+        float: left;
+        width: 34%;
+    }
+    .segunda {
+        background-image: url(../img/img_8.jpg);
+        text-align: center;
+    }
+    .segunda img {
+        width: 60%;
+    }
+    .horario {
+        width: 100%;
+        background-color: rgb(50, 50, 50);
+        font-size: 3vw;
+        text-align: center;
+    }
+    .ubicados {
+        text-align: center;
+        background-image: url(../img/img_7.jpg);
+    }
+    .ubicados h1 {
+        background-color: white;
+        margin: 1% 15% 0;
+        color: black;
+    }
+    .ubicados iframe {
+        width: 85%;
+    }
+    .cuarta {
+        color: #000000;
+        text-align: center;
+    }
+    .five-columns {
+        width: 50%;
+        float: left;
+        padding: 0 0.5%;
+    }
+    .five-columns img {
+        width: 99%;
+    }
+    ul.sidenav li a {
+        display: block;
+        color: rgb(255, 255, 255);
+        padding: 8px 16px;
+        text-decoration: none;
+        font-size: 3.5vw;
+    }
 }
 /* ---- Fin SLIDES ---- */
